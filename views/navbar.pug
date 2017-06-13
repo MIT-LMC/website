@@ -1,0 +1,53 @@
+.masthead.clearfix
+  .inner
+    h3.masthead-brand MIT Live Music Connection
+    nav
+      ul.nav.masthead-nav
+        if activeView === 'home'
+          li.active
+            a(href='/') Home
+        else
+          li
+            a(href='/') Home
+
+        if activeView === 'about'
+          li.active
+            a(href='/about') About LMC
+        else
+          li
+            a(href='/about') About LMC
+
+        if activeView === 'concerts'
+          li.active
+            a(href='/concerts') Concerts
+        else
+          li
+            a(href='/concerts') Concerts
+
+        if activeView === 'opensource'
+          li.active
+            a(href='/opensource') Open Source
+        else
+          li
+            a(href='/opensource') Open Source
+
+        if activeView === 'rentals'
+          li.active
+            a(href='/rentals') Rentals
+        else
+          li
+            a(href='/rentals') Rentals
+
+        if activeView === 'sponsors'
+          li.active
+            a(href='/sponsors') Sponsorship
+        else
+          li
+            a(href='/sponsors') Sponsorship
+
+        if activeView === 'contact'
+          li.active
+            a(href='/contact') Contact Us
+        else
+          li
+            a(href='/contact') Contact Us

@@ -27,7 +27,9 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  /* background-color: #333; */
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
 }
 body {
   color: #fff;
@@ -71,7 +73,7 @@ body {
   display: inline-block;
 }
 .masthead-nav > li + li {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .masthead-nav > li > a {
   padding-right: 0;
@@ -95,6 +97,7 @@ body {
   border-bottom-color: #fff;
 }
 
+/*
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -103,6 +106,7 @@ body {
     float: right;
   }
 }
+*/
 
 
 /*
@@ -158,6 +162,10 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 900px;
   }
+}
+
+.custom-a {
+  color: rgba(0, 122, 204, 1.0);
 }

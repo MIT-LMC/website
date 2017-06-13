@@ -1,4 +1,4 @@
-extends layout
+extends layout.pug
 
 block content
   .site-wrapper
@@ -6,7 +6,5 @@ block content
       .cover-container
         include navbar.pug
         .inner.cover
-          h1= message
-          h2= error.status
-          pre #{error.stack}
+          h1.cover-heading Coming Soon!
 
